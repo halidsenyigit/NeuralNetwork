@@ -33,5 +33,9 @@ public class Network{
 			output_neurons[i] = new Neuron(width - 2 * r, 3 * r * ( 2 * i + 1 ), 2 * r, p.outputs.vector[i]);
 			output_neurons[i].Render();
 		}
+
+
+		// render weights
+		
 	}
 }
